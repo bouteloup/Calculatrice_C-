@@ -6,7 +6,7 @@ using namespace std;
 /// \version	1.0
 /// \date	12 février 2015
 /// \brief	Addition de huit opérandes typée en int64_t, int32_t, float et double. 
-/// \details	Ce fichier contient quatre fonctions addition avec différentes variables en paramètres.
+/// \details	Ce fichier contient quatre fonctions nommées addition avec différentes variables en paramètres.
 
 /// \brief Fonction d'addition de deux nombres typée en int64_t.
 /// Cette fonction possède deux variables de type int64_t en paramètres
