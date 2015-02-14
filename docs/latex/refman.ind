@@ -1,0 +1,37 @@
+\begin{theindex}
+
+  \item {addition}
+    \subitem {addition.\-cpp}, 3, 4
+  \item {addition.\-cpp}, 3
+    \subitem {addition}, 3, 4
+
+  \indexspace
+
+  \item {division}
+    \subitem {division.\-cpp}, 5, 6
+  \item {division.\-cpp}, 5
+    \subitem {division}, 5, 6
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\-cpp}, 7
+  \item {main.\-cpp}, 6
+    \subitem {main}, 7
+  \item {modulo}
+    \subitem {modulo.\-cpp}, 8
+  \item {modulo.\-cpp}, 7
+    \subitem {modulo}, 8
+  \item {multiplication}
+    \subitem {multiplication.\-cpp}, 9, 10
+  \item {multiplication.\-cpp}, 8
+    \subitem {multiplication}, 9, 10
+
+  \indexspace
+
+  \item {soustraction}
+    \subitem {soustraction.\-cpp}, 11
+  \item {soustraction.\-cpp}, 10
+    \subitem {soustraction}, 11
+
+\end{theindex}
