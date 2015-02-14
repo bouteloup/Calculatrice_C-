@@ -45,6 +45,7 @@ cout << "Appuyer sur une touche pour effectuer et afficher le calcul";
 cin.peek();
 
 
+// Affichage des résultats des calculs
 /// Appel des quatre fonctions d'addition, de soustraction, de mutliplication, de division et deux fonctions modulo. Affichage des résultats à l'aide de celle çi.
 cout << "\nAddition\n" << "int64_t = " << addition(a,b) << "\nint32_t = " << addition(c,d);
 cout << "\nfloat = " << addition(e,f) << "\ndouble = " << addition(g,h) << endl;
