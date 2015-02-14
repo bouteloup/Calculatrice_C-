@@ -6,6 +6,7 @@
 #include "./soustraction.cpp"
 #include "./multiplication.cpp"
 #include "./division.cpp"
+#include "./modulo.cpp"
 
 using namespace std;
 
@@ -22,21 +23,21 @@ using namespace std;
 
 int main()
 {
-	int32_t a=115, b=30;
+	int32_t a=41, b=20;
 	int64_t c=201, d=318;
 	float e=23.1, f=12.1;
 	double g=15.5, h=23.5;
+	
 
-
-cout << "Calculatrice simple - C++" << endl << endl;
+cout << "\n\nCalculatrice simple - C++" << endl << endl;
 cout << "Liste des valeurs numériques : " << endl << endl;
 
 
 /// Affichage des valeurs numériques prédéfinies
-cout << "int32_t --> "<< a << " | " << b << endl;
-cout << "int64_t --> "<< c << " | " << d << endl;
-cout << "float --> "<< e << " | " << f << endl;
-cout << "double --> "<< g << " | " << h << endl << endl << endl;
+cout << "int64_t --> "<< a << "	 | " << b << endl;
+cout << "int32_t --> "<< c << "	 | " << d << endl;
+cout << "float   --> "<< e << " | " << f << endl;
+cout << "double  --> "<< g << " | " << h << endl << endl << endl;
 
 
 //Pause
@@ -44,7 +45,7 @@ cout << "Appuyer sur une touche pour effectuer et afficher le calcul";
 cin.peek();
 
 
-/// 
+/// Appel des quatre fonctions d'addition, de soustraction, de mutliplication, de division et deux fonctions modulo. Affichage des résultats à l'aide de celle çi.
 cout << "\nAddition\n" << "int64_t = " << addition(a,b) << "\nint32_t = " << addition(c,d);
 cout << "\nfloat = " << addition(e,f) << "\ndouble = " << addition(g,h) << endl;
 
@@ -56,6 +57,8 @@ cout << "\nfloat = " <<  multiplication(e,f) << "\ndouble = " << multiplication(
 
 cout << "\nDivision\n" << "int64_t = " << division(a,b) << "\nint32_t = " << division(c,d);
 cout << "\nfloat = " <<  division(e,f) << "\ndouble = " << division(g,h) << endl; 
+
+cout << "\nModulo\n" << "int64_t = " << modulo(a,b) << "\nint32_t = " << modulo(c,d);
 
 return 0;
 }
